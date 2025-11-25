@@ -28,9 +28,6 @@ columns = [
 
 df = pd.read_csv(url, header=None, names=columns)
 
-print("Prévia do dataset:")
-print(df.head())
-
 # ======================================
 # 2. Tratamento de Dados
 # ======================================
